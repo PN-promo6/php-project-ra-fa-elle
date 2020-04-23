@@ -7,12 +7,16 @@ body {
   padding-top: 100px;
 }
 
+img {
+  max-width: 1500px;
+}
+
 .navbar-brand img {
   max-width: 170px;
 }
 
-.jumbotron {
-  background-image: url("img/boyfit.jpg");
+header {
+  background-image: url("img/girl.jpg");
   background-position: center;
   background-size: cover;
 }
