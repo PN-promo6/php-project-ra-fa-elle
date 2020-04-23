@@ -4,7 +4,7 @@ namespace Entity;
 
 class User
 {
-    public $id;
+    public $userId;
     public $mail;
     public $nickname;
     public $password;

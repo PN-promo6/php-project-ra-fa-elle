@@ -1,3 +1,46 @@
+<?php
+
+require "../vendor/autoload.php";
+
+use Entity\User;
+use Entity\Training;
+
+$userRaph = new User();
+$userRaph->userId = 1;
+$userRaph->mail = "monmail@mail.com";
+$userRaph->nickname = "Raff";
+$userRaph->password = "aaaaaaaa";
+
+$train1 = new Training();
+$train1->id = 1;
+$train1->creationDate = time();
+$train1->category = "legs";
+$train1->title = "Legs day";
+$train1->exo1 = "squatts";
+$train1->exo2 = "squatts";
+$train1->exo3 = "squatts";
+$train1->exo4 = "squatts";
+$train1->nbrSeries = 4;
+$train1->nbrReps = 10;
+$train1->userId = $userId;
+
+$train2 = new Training();
+$train2->id = 2;
+$train2->creationDate = time();
+$train2->category = "half-body";
+$train2->title = "dos-pecs-bras";
+$train2->exo1 = "squatts";
+$train2->exo2 = "squatts";
+$train2->exo3 = "squatts";
+$train2->exo4 = "squatts";
+$train2->nbrSeries = 4;
+$train2->nbrReps = 10;
+$train2->userId = $userId;
+
+$items = array($train1, $train2);
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,8 +67,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#"><img src="img/logo.svg" alt="logo de la marque"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
