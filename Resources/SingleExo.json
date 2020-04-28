@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "exoName": "squatts",
+        "nbrSeries": 4,
+        "nbrReps": 10,
+        "tpsRepos": "1min30"
+    },
+    {
+        "id": 2,
+        "exoName": "squatts",
+        "nbrSeries": 4,
+        "nbrReps": 10,
+        "tpsRepos": "1min30"
+    },
+    {
+        "id": 3,
+        "exoName": "squatts",
+        "nbrSeries": 4,
+        "nbrReps": 10,
+        "tpsRepos": "1min30"
+    },
+    {
+        "id": 4,
+        "exoName": "squatts",
+        "nbrSeries": 4,
+        "nbrReps": 10,
+        "tpsRepos": "1min30"
+    }
+]

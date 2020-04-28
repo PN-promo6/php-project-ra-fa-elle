@@ -1,0 +1,68 @@
+[
+    {
+        "user": 1,
+        "id": 1,
+        "category": "legs",
+        "title": "legs day",
+        "exo1": 1,
+        "exo2": 2,
+        "exo3": 3,
+        "exo4": 4,
+        "urlImg": "https://cdn.pixabay.com/photo/2017/04/22/10/15/sport-2250970_960_720.jpg"
+    },
+    {
+        "user": 1,
+        "id": 2,
+        "category": "legs",
+        "title": "legs day",
+        "exo1": 1,
+        "exo2": 2,
+        "exo3": 3,
+        "exo4": 4,
+        "urlImg": "https://cdn.pixabay.com/photo/2017/04/22/10/15/sport-2250970_960_720.jpg"
+    },
+    {
+        "user": 1,
+        "id": 3,
+        "category": "legs",
+        "title": "legs day",
+        "exo1": 1,
+        "exo2": 2,
+        "exo3": 3,
+        "exo4": 4,
+        "urlImg": "https://cdn.pixabay.com/photo/2017/04/22/10/15/sport-2250970_960_720.jpg"
+    },
+    {
+        "user": 1,
+        "id": 4,
+        "category": "legs",
+        "title": "legs day",
+        "exo1": 1,
+        "exo2": 2,
+        "exo3": 3,
+        "exo4": 4,
+        "urlImg": "https://cdn.pixabay.com/photo/2017/04/22/10/15/sport-2250970_960_720.jpg"
+    },
+    {
+        "user": 1,
+        "id": 5,
+        "category": "legs",
+        "title": "legs day",
+        "exo1": 1,
+        "exo2": 2,
+        "exo3": 3,
+        "exo4": 4,
+        "urlImg": "https://cdn.pixabay.com/photo/2017/04/22/10/15/sport-2250970_960_720.jpg"
+    },
+    {
+        "user": 1,
+        "id": 6,
+        "category": "legs",
+        "title": "legs day",
+        "exo1": 1,
+        "exo2": 2,
+        "exo3": 3,
+        "exo4": 4,
+        "urlImg": "https://cdn.pixabay.com/photo/2017/04/22/10/15/sport-2250970_960_720.jpg"
+    }
+]

@@ -1,17 +1,39 @@
 body {
-  padding-top: 100px;
+  background: #232323;
+}
+
+.container {
+  max-width: none;
 }
 
 img {
   max-width: 1500px;
 }
 
+.navbar, .share-train-btn {
+  background: #1A1A1A;
+}
+
 .navbar-brand img {
-  max-width: 170px;
+  width: 100px;
+}
+
+.search-btn, .share-train-btn {
+  border-color: #f6d62b;
+  color: #f6d62b;
+}
+
+.search-btn:hover, .search-btn:focus, .share-train-btn:hover, .share-train-btn:focus {
+  background: #f6d62b;
+  color: #1a1a1a;
 }
 
 header {
-  background-image: url("img/girl.jpg");
+  background-image: url("../img/abstract.jpg");
   background-position: center;
   background-size: cover;
+}
+
+.jumbotron {
+  background: rgba(26, 26, 26, 0.8);
 }
