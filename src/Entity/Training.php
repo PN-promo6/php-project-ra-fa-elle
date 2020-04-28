@@ -12,6 +12,7 @@ class Training
     public $creationDate;
     public $category;
     public $title;
+    public $urlImg;
     public SingleExo $exo1;
     public SingleExo $exo2;
     public SingleExo $exo3;
